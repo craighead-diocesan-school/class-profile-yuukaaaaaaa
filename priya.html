@@ -15,23 +15,26 @@
     </ul>
   </nav>
   <main>
-    <h2>Y13</h2>
-    <p>
-    <span class="our-school">Our School</span>
-    </p>
-    <p>
-         Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be. Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them. 
-    </p>
-    <img src="school-outside (1).jpg">
-
-
+    <div><img src="priya.jpg"></div>
+    <span class="name"><p> Priya </p></span>
+          <p>Priya loves working with people and visual systems. </p>
+          <p>She's worked on:<p>
+          <ul>
+            <li>
+                <p>Facial recognitiom software</p>
+            </li>
+            <li>
+                <p>Self-driving system</p>
+            </li>
+            <li>
+                <p>Animal classification apps</p>
+            </li>
+          </ul>
   </main>
   <footer>
     <p> &copy; Yuka Sugiya 2023 </p>
   </footer>
-
-<style>
-      
+  <style>
     body {
         display: grid;
         grid: " h    h    h " auto
@@ -39,13 +42,13 @@
               " m    m    m " auto
               " f    f    f " auto
              / auto auto auto;
-   }
+    }
 
-    header { grid-area: h; }
-    main   { grid-area: m; }
-    footer { grid-area: f; }
-   
-    h1 {
+  header { grid-area: h; }
+  main   { grid-area: m; }
+  footer { grid-area: f; }
+    
+  h1 {
         background-color:E7C8DD;
         font-family: 'Fredericka the Great', cursive;
         padding-top: 7%;
@@ -56,20 +59,6 @@
         position:fixed;
         width:100%;
         top: 0;
-
-    }
-    h2{
-        background-color:E2E4F6;
-        font-family: 'EB Garamond', serif;
-        text-align: center;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        font-size: 2rem;
-        color:#734E30;
-    }
-    .our-school{
-        font-size:1.5rem;
-        color:#734E30;
     }
 
     nav {
@@ -86,38 +75,33 @@
         list-style: none;
         display: inline-block;
         width:1000%;
-        background-color:#734E30; /* 背景色を指定します */
+        background-color:#734E30; 
         font-size: 16px;
         font-family; 'EB Garamond', serif;
     }
  
     nav ul li a {
         text-decoration: none;
-        color: #fff; /* 文字色を指定します */
+        color: #fff;
     }
  
     nav li:hover{
-        opacity: 0.8; /* hover時の不透明度を調整します */
+        opacity: 0.8; 
     }
-
+    main{
+        text-align:center;
+    }
     img{
-        width:500px;
-    border-radius: 30px;
+        width: 20rem;
     }
-    img:hover{
-    transform:scale(1.2,1.2);
-   }
-    
-    .our-class{
+    .name{
         font-size:1.5rem;
+        font-family:'EB Garamond';
         color:#734E30;
-        font-family: Times New Roman;
     }
-    
     p{
-        font-family: Times New Roman;
+        font-family:'EB Garamond';
     }
-
     footer {
         background-color:#734E30;
         font-family: 'EB Garamond', serif;
@@ -126,4 +110,5 @@
         margin-top:10%
 
     }
+
 </style>
