@@ -16,6 +16,7 @@
     </ul>
   </nav>
   <main>
+    <h2>Y13</h2>
     <img src="aniyah.jpg"></div>
     <span class="name"><p>Aniyah</p></span>
     <p>Aniyah is a mathematician through-and-through. </p>
@@ -46,48 +47,61 @@
     }
 
   header { grid-area: h; }
+  nav    { grid-area: n; }
   main   { grid-area: m; }
   footer { grid-area: f; }
     
   h1 {
-        background-color:E7C8DD;
-        font-family: 'Fredericka the Great', cursive;
-        padding-top: 7%;
-        padding-bottom: 7%;
+        background-color:#FF69EB;
+        font-family:'Amatic SC', cursive;
+        padding-top: 4%;
+        padding-bottom: 4%;
         text-align: center;
-        font-size: 5rem;
-        color: #734E30;
-        position:fixed;
+        font-size: 7rem;
+        color: #0f0f0f;
         width:100%;
-        top: 0;
+        margin-bottom:0%;
+
+    }
+    h2{
+        background-color:#FF69EB;
+        font-family:'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-size: 2rem;
+        color:black;
     }
 
     nav {
         text-align: center;
-        padding-top:250%;
     }
  
     nav ul {
-        padding: 10% ;
         font-size: 1rem;
+        text-align:center;
+        
     }
  
     nav ul li{
+        text-align: center;
         list-style: none;
         display: inline-block;
-        width:1000%;
-        background-color:#734E30; 
+        width: 100%;
+        background-color:#FFCE70; 
         font-size: 16px;
-        font-family; 'EB Garamond', serif;
+        font-family:'Amatic SC', cursive;
     }
  
     nav ul li a {
         text-decoration: none;
-        color: #fff;
+        color: black;
+        text-align: center;
     }
  
     nav li:hover{
-        opacity: 0.8; 
+        opacity: 0.8;
+        text-align: center;
     }
     main{
         text-align:center;
@@ -96,20 +110,23 @@
         width: 20rem;
     }
     .name{
+        color:#000000;
         font-size:1.5rem;
-        font-family:'EB Garamond';
-        color:#734E30;
-    }
-    p{
-        font-family:'EB Garamond';
-    }
-    footer {
-        background-color:#734E30;
-        font-family: 'EB Garamond', serif;
         text-align:center;
-        color:E2E4F6;
-        margin-top:10%
+        font-family:'Exo 2', sans-serif;
+        background-color: #FFCE70;
+    }
 
+    p{
+        font-family:'Exo 2', sans-serif;
+    }
+
+    footer {
+        background-color:#FF69EB;
+        font-family:'Exo 2', sans-serif;
+        text-align:center;
+        color:black;
+        margin-top:10%;
     }
 
 </style>

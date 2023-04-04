@@ -1,12 +1,19 @@
+<!DOCTYPE html>
 <head>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=EB+Garamond&family=Fredericka+the+Great&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=EB+Garamond&family=Exo+2:wght@100&family=Fredericka+the+Great&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>  
-    <h1>Digi</h1>
+    <h1>Our school</h1>
   </header>
   <nav>
     <ul>
@@ -17,10 +24,10 @@
   <main>
     <h2>Y13</h2>
     <p>
-    <span class="our-school">Our School</span>
+    <span class="our-school">Our-School</span>
     </p>
     <p>
-         Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be. Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them. 
+      Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be. Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them. 
     </p>
     <img src="school-outside (1).jpg">
 
@@ -29,6 +36,7 @@
   <footer>
     <p> &copy; Yuka Sugiya 2023 </p>
   </footer>
+</body>
 
 <style>
       
@@ -42,88 +50,83 @@
    }
 
     header { grid-area: h; }
+    nav    { grid-area: n; }
     main   { grid-area: m; }
     footer { grid-area: f; }
    
     h1 {
-        background-color:E7C8DD;
-        font-family: 'Fredericka the Great', cursive;
-        padding-top: 7%;
-        padding-bottom: 7%;
+        background-color:#FF69EB;
+        font-family:'Amatic SC', cursive;
+        padding-top: 4%;
+        padding-bottom: 4%;
         text-align: center;
-        font-size: 5rem;
-        color: #734E30;
-        position:fixed;
+        font-size: 7rem;
+        color: #0f0f0f;
         width:100%;
-        top: 0;
+        margin-bottom:0%;
 
     }
     h2{
-        background-color:E2E4F6;
-        font-family: 'EB Garamond', serif;
+        background-color:#FF69EB;
+        font-family:'Montserrat', sans-serif;
         text-align: center;
-        padding-top: 4%;
-        padding-bottom: 4%;
+        padding-top: 0%;
+        padding-bottom: 0%;
         font-size: 2rem;
-        color:#734E30;
-    }
-    .our-school{
-        font-size:1.5rem;
-        color:#734E30;
+        color:#F;
     }
 
     nav {
         text-align: center;
-        padding-top:250%;
     }
  
     nav ul {
-        padding: 10% ;
         font-size: 1rem;
+        text-align:center;
+        
     }
  
     nav ul li{
+        text-align: center;
         list-style: none;
         display: inline-block;
-        width:1000%;
-        background-color:#734E30; /* 背景色を指定します */
+        width: 100%;
+        background-color:#FFCE70; 
         font-size: 16px;
-        font-family; 'EB Garamond', serif;
+        font-family:'Amatic SC', cursive;
     }
  
     nav ul li a {
         text-decoration: none;
-        color: #fff; /* 文字色を指定します */
+        color: black;
+        text-align: center;
     }
  
     nav li:hover{
-        opacity: 0.8; /* hover時の不透明度を調整します */
+        opacity: 0.8;
+        text-align: center;
+    }
+    .Our-School{
+        font-family:'Montserrat', sans-serif;
+        font-size:1.5rem;
+
     }
 
     img{
         width:500px;
-    border-radius: 30px;
-    }
-    img:hover{
-    transform:scale(1.2,1.2);
-   }
-    
-    .our-class{
-        font-size:1.5rem;
-        color:#734E30;
-        font-family: Times New Roman;
+        border-radius: 30px;
     }
     
-    p{
-        font-family: Times New Roman;
-    }
-
     footer {
-        background-color:#734E30;
-        font-family: 'EB Garamond', serif;
+        background-color:#FF69EB;
+        font-family:'Amatic SC', cursive;
         text-align:center;
-        color:E2E4F6;
-        margin-top:10%
+        color:black;
+        margin-top:10%;
+    }
 
+    p{
+        font-family: 'Exo 2', sans-serif;
+        color:#000000;
     }
 </style>

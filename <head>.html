@@ -1,9 +1,14 @@
 <head>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=EB+Garamond&family=Fredericka+the+Great&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=EB+Garamond&family=Exo+2:wght@100&family=Fredericka+the+Great&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,14 +44,11 @@
     <a href="kaiara.html" class="kaiara"><div><img src="kaiara.jpg"></div></a>
     <span class="name"><p> Kaiara </p></span>
   </main>
-
-</body>
-
   <footor>
     <p> &copy; Yuka Sugiya 2023 </p>
   </footor>
 
-
+</body>
 <style>
     body {
         display: grid;
@@ -58,79 +60,90 @@
     }
 
   header { grid-area: h; }
+  nav    { grid-area: n; }
   main   { grid-area: m; }
   footer { grid-area: f; }
     
   h1 {
-        background-color:E7C8DD;
-        font-family: 'Fredericka the Great', cursive;
-        padding-top: 7%;
-        padding-bottom: 7%;
+        background-color:#FF69EB;
+        font-family:'Amatic SC', cursive;
+        padding-top: 4%;
+        padding-bottom: 4%;
         text-align: center;
-        font-size: 5rem;
-        color: #734E30;
-        position:fixed;
+        font-size: 7rem;
+        color: #0f0f0f;
         width:100%;
-        top: 0;
+        margin-bottom:0%;
+
+    }
+    h2{
+        background-color:#FF69EB;
+        font-family:'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-size: 2rem;
+        color:#F;
     }
 
     nav {
         text-align: center;
-        padding-top:250%;
     }
  
     nav ul {
-        padding: 10% ;
         font-size: 1rem;
+        text-align:center;
+        
     }
  
     nav ul li{
+        text-align: center;
         list-style: none;
         display: inline-block;
-        width:1000%;
-        background-color:#734E30; 
+        width: 100%;
+        background-color:#FFCE70; 
         font-size: 16px;
-        font-family; 'EB Garamond', serif;
+        font-family:'Amatic SC', cursive;
     }
  
     nav ul li a {
         text-decoration: none;
-        color: #fff;
+        color: black;
+        text-align: center;
     }
  
     nav li:hover{
-        opacity: 0.8; 
+        opacity: 0.8;
+        text-align: center;
     }
 
-    h2{
-        background-color:E2E4F6;
-        font-family: 'EB Garamond', serif;
-        text-align: center;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        font-size: 2rem;
-        color:#734E30;
-    }
     h3{
         font-size:1.5rem;
-        color:#734E30;
-        font-family:'EB Garamond';
+        color:#000000;
+        font-family:'Amatic SC', cursive;
     }
     
     img{
         width: 20rem;
         height:auto;
     }
+
     div {
         text-align:center; 
     }
+    
     .name {
-        color:#734E30;
+        color:#000000;
         font-size:1.5rem;
+        text-align:center;
+        font-family:'Exo 2', sans-serif;
+        background-color: #FFCE70;
+
+        
     }
     
     p {
-        font-family: times New Roman;
+        font-family:'Exo 2', sans-serif;
         text-align: center;
     }
 
@@ -138,23 +151,12 @@
         transform:scale(1.2,1.2);
     }
 
-    {
-        display: inline-block;
-    }
-
-    .ruoxi{
-        display: block;
-    }
-
-    .ruoxi img{
-        display: block;
-    }
     
     footer {
-        background-color:#734E30;
-        font-family: 'EB Garamond', serif;
+        background-color:#FF69EB;
+        font-family:'Amatic SC', cursive;
         text-align:center;
-        color:E2E4F6;
+        color:black;
         margin-top:10%;
     }
 </style>
